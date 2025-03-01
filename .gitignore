@@ -1,0 +1,37 @@
+# Ignore Maven & Gradle build directories
+/target/
+*.jar
+*.war
+*.ear
+
+# Ignore dependency caches
+/.m2/
+/.gradle/
+/build/
+
+# Ignore IDE & editor config files
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment & config files (if sensitive)
+application.properties
+application.yml
+.env
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore test reports
+/test-output/
+/surefire-reports/
+
+# Ignore generated files
+/out/
+/bin/
+
